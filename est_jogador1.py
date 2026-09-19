@@ -75,8 +75,8 @@ df_estatisticas = buscar_dados_brasileirao()
 print(df_estatisticas.head())
 
 #Salva o resultado em um arquivo Excel e CSV
-df_estatisticas.to_excel('C:/Users/lecan/OneDrive/Área de Trabalho/estudos_python/jogador/dados_brasileirao.xlsx', index=False)
-df_estatisticas.to_csv('C:/Users/lecan/OneDrive/Área de Trabalho/estudos_python/jogador/dados_brasileirao.csv', index=False, encoding='utf-8')    
+#df_estatisticas.to_excel('C:/Users/lecan/OneDrive/Área de Trabalho/estudos_python/jogador/dados_brasileirao.xlsx', index=False)
+#df_estatisticas.to_csv('C:/Users/lecan/OneDrive/Área de Trabalho/estudos_python/jogador/dados_brasileirao.csv', index=False, encoding='utf-8')    
     
 
 #criar coluna
